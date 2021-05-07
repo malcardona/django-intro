@@ -25,7 +25,8 @@ ejercicios_profundizacion.py
 # Comandos útiles 🐋
 
 ### 1. Correr el proyecto
-Siempre en el mismo directorio del archivo *docker-compose.yml*
+Siempre en el mismo directorio del archivo *docker-compose.yml*  
+
 **$** `docker-compose up`
 
 ### 2. Correr la línea de comandos dentro del contenedor
@@ -59,6 +60,7 @@ Tenemos que ir a la carpeta donde se encuentra el archivo *manage.py*
 (Siempre dentro de nuestro contenedor de software - Comando N°2)  
 
 **$** `cd opt/back_end/mi_proyecto` 
+
 Y ejecutar el comando:  
 
 **$** `python manage.py startapp mi_app` 

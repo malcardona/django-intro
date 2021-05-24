@@ -11,15 +11,6 @@ En este repositorio encontrarán los siguientes archivos:
 __Ejemplos que el profesor mostrará en clase__\
 docker-compose.yml
 
-__Modulo de ejemplo creado para esta clase__\
-inovetools.py
-
-__Ejercicios para que el alumno desarrolle lo visto en clase__\
-ejercicios_practica.py
-
-__Ejercicios para que el alumno profundice sobre el tema durante la semana__\
-ejercicios_profundizacion.py
-
 ---
 
 # Comandos útiles 🐋
@@ -55,39 +46,13 @@ Una vez dentro ejecutamos el comando:
 
 **$** `django-admin startproject mi_proyecto` 
 
-### 5. Crear una aplicación dentro del proyecto
-Tenemos que ir a la carpeta donde se encuentra el archivo *manage.py*  
-(Siempre dentro de nuestro contenedor de software - Comando N°2)  
-
-**$** `cd opt/back_end/mi_proyecto` 
-
-Y ejecutar el comando:  
-
-**$** `python manage.py startapp mi_app` 
-
-### 6. Iniciar el servidor
+### 5. Iniciar el servidor
 (Siempre dentro de nuestro contenedor de software - Comando N°2)  
 Tenemos que ir a la carpeta donde se encuentra el archivo *manage.py*  
 
 **$** `python manage.py runserver 0.0.0.0:8000`  
 
-### 7. Realizar migraciones a la base de datos
-(Siempre dentro de nuestro contenedor de software - Comando N°2)  
-Tenemos que ir a la carpeta donde se encuentra el archivo *manage.py*  
-
-**$** `python manage.py makemigrations`  
-
-Luego  
-
-**$** `python manage.py migrate`  
-
-### 8. Crear un superusuario para el administrador de Django
-(Siempre dentro de nuestro contenedor de software - Comando N°2)  
-Tenemos que ir a la carpeta donde se encuentra el archivo *manage.py*  
-
-**$** `python manage.py createsuperuser`  
-
-### 9. Detener la ejecución de nuestro contenedor y nuestro servidor
+### 6. Detener la ejecución de nuestro contenedor y nuestro servidor
 Tenemos que estar en la terminal que nos muestra los mensajes del servidor, tomada por el contenedor.
 Tan solo con el comando `ctrl + c`  se detiene la ejecución de nuestro contenedor.  
 
